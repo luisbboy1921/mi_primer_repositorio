@@ -17,6 +17,8 @@ if ($conn->connect_error) {
 
 // Cerrar la conexión
 echo "Hola mundo";
+
+echo "Segundo cambio";
 $conn->close();
 ?>
 ```
